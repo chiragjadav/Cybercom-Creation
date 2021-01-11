@@ -1,0 +1,42 @@
+************************************************************Java Script*********************************************************************
+- Watched JS video and Learned basic things described below.  
+
+*Conditional Statement.
+- if : when condition is true then if block executes.
+- else : when condition is not seticfy in if block the it executes in else block.
+- Strict equality(===) : checks whether its two operands are equal and returning a Blooean Result.
+
+*Boolean Logic 
+- There are three logical operators in JavaScript: || (OR), && (AND), ! (NOT).
+- Although they are called “logical”, they can be applied to values of any type, not only boolean. Their result can also be of any type.
+- AND (&&) : If any of its arguments are flase the result will be false. There must have all arguments true.
+- OR(||) : If any of its arguments true then it returns true.otherwise it will return false.
+- NOT (!) : Converts the operand to boolean type: true/false.Returns the inverse value.
+
+*Ternary operator and Switch statements
+- Ternary operator : JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy 
+   followed by a colon (:), and finally the expression to execute if the condition is falsy.
+- Syntax : condition ? exprIfTrue : exprIfFalse.
+
+- Switch Statement : The switch expression is evaluated once.The value of the expression is compared with the values of each case.
+	               If there is a match, the associated block of code is executed.If there is no match, the default code block is executed.
+- break : To stop the execution next blocks after executing the main block.
+- default : this block will execute when no case match.
+- In switch case when use return statement we need not to write break because after returning the values
+  function automatically stop or finish.
+
+*Truthly and Falsy value and Eqality operator
+- Falsy values : undefined , null , 0 , NaN , '', false.
+- A falsy value is something which evaluates to FALSE, for instance when checking a variable.
+
+-Truthy values : which is not falsy (true). 
+
+*Functions
+- A function is a group of reusable code which can be called anywhere in your program.
+- Function Expression : var x = function (a, b) {return a * b};
+- Function declarations load before any code is executed 
+- while Function expressions load only when the interpreter reaches that line of code.
+
+*Array 
+- JavaScript arrays are used to store multiple values in a single variable.
+- Syntax : var array_name = [item1, item2, ...];      
