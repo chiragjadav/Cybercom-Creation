@@ -1,0 +1,29 @@
+************************************************************Java Script*********************************************************************
+* Inline script and External script in java script.
+
+* Introduction of JavaScript.Is is light weight, cross platform and objct oriented langage.JS is client-side scripting language.
+  Frameworks/Libraires like react and angular are 100% based on JS and before we move on that we must neet to master JS.
+
+* Variables and Fundamentals of Datatypes.
+  Variable : Container to store value to use again and again.
+  Data Types : 1)Number
+	     2)String
+	     3)Boolean
+	     4)Undefined : Datatype of variable that does noe have value yet.
+                      5)Null : non-existent.
+- Java scipt camel case for more convinient.
+- function,delete etc., are token we can not use them as variable.
+
+* Variable Mutation and Type Coercion
+- // : Single line comment.
+- /* .. */ : Multiline comment.
+- Mutation : ex. consol.log(fname+ ' ' + age).
+- alert : Open Alert message in browser.
+- prompt : Open Promt in browser.
+
+*Basics operator
+- Maths operator : +,-,/,*.
+- Logic operator : < , > ,give o/p = true or false.
+- typeof operator : give type of operator.
+
+*Operator Precedence.

@@ -1,0 +1,32 @@
+************************************************************GIT WORKFLOW WITH GITHUB*********************************************************************
+- Git Fork : Created new Github account for testing pusopse of how github fork and pull request works.
+                   Task completed successfully with reference of video.               
+- Change the private repository to public repository with reference og Github Doc.
+	: Danger Zone - change visibility
+ 	 	      - make public.
+- Refering new git commands from edureka. 
+
+* Github Commands 
+- Learned Some basic commands.
+- ls: list the files.
+- touch : command to create new files.
+- git branch -d <bramch> : Delete branch
+- git branch -D <branch> : Delete branch even if it is unmerged.
+- git checkout -b new : Create new branch and wsitch to a new branch.
+- git log : This helps give context and history for a repository.  
+- git log --oneline : Displays commit ID and first line of the commited message.
+- git log --graph : Display the branch strucutre of the commit history.
+- git commit : Record the changes made to the files in local repository.each git commit has unique id.
+- git status : The commad returns the current state of repository and give name of branch.
+- git config : git config --global user.name "chirag".
+	 : git config --global user.email "chirag@gmail.com".
+- git pull origin master : pulls the changes from the remote repository to the local repository.
+- git stash : To save chnges made when they are not in a stateto commit them to a repository.
+- git stash -u
+- git stash list : show the list.
+- git stash show : inspect.
+- git revert UID(hash commit has) : In order to go back on previous commit.
+- git revert HEAD : Revert the last commit.
+
+* Task:
+-  merging the main and main1 completed with different id.
