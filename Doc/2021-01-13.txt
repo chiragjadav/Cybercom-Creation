@@ -1,0 +1,48 @@
+**********************************Java Script*****************************************
+*  DOM and DOM Manipulation 
+- DOM stand for document object model.The dom is used to connect webpage to script like   javascript.
+- For each html box, there is an objct in Dom that we ca access and interact with.
+
+* Random number Generator function in javascript : Math.random();
+- Math.random() used with Math.floor() can be used to return random integers.
+
+* querySelector and getElementById
+=> querySelector() : Returns the first element within the document that matches the specified group   of selectors, or null if no matches are found.
+- Syntax : document.querySelector(selectors);
+
+=> getElementById() : Returns a reference to the element by its ID. If the element with the specified   ID is not in the document, it will returns null.
+- Syntax : document.getElementById(id);
+
+* textContent and innerHTML
+=> document.querySelector(selectors).textContent = <em> 24 </em>;
+- Output : <em>24</em> 
+- textContents is all text contained by an element and all its children that are for formatting purposes only.
+- to select id use(#) symbol and for class use (.) symbol.
+
+=> document.getElementById(id).innerHTML = <em>24</em>;
+- Output : 24
+- innerHtml returns all text, including html tags, that is contained by an element.
+
+* Event and Event Handling
+- Event : Ntification that are sent to notify the code that something happend on the webpage.
+- ex:. clicking button ,resizingwindow, scrolling down or pressing key
+- EventListener : A fnction that performs an action based on a certain event.It waits for a specific   event to happen.
+- ex:.       document.queryselector("#callback-btn")
+	    .addEventListener("click", function() {    
+	      console.log("User has clicked on the button!");
+	});
+- Anonymous function : function with no name .
+- function(){ //coding }
+
+*localStorage and sessionStorage
+- localStorage : The localStorage object stores the data with no expiration date. The data will not be   deleted when the browser is closed, and will be available the next day, week, or year.
+- Example : // Store
+	localStorage.setItem("lastname", "Smith");
+	// Retrieve
+	document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+
+- sessionStorage : The sessionStorage object is equal to the localStorage object, except that it stores   the data for only one session. The data is deleted when the user closes the specific browser tab.
+Example : // Store
+	sessionStorage.setItem("lastname", "Smith");
+	// Retrieve
+	document.getElementById("result").innerHTML = sessionStorage.getItem("lastname");
