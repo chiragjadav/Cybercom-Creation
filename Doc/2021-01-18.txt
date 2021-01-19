@@ -1,0 +1,37 @@
+********************************Java Script************************************
+* Arrow functions
+- Arrow functions were introduced in ES6.
+- Arrow functions allow us to write shorter function syntax:
+- Before : hello = function() {
+     return "Hello World!";
+  }
+- After : hello = () => {
+     return "Hello World!";
+  }
+- Arrow function with one argument : ages6 = years.map((el,index) => `Age element ${index + 	1}:${2016 - el}.`);
+- Arrow function with multiple ilne code : ages6 = years.map((el,index) => {
+			const now = new
+			Date().getFullYear();
+			const age = now - el;
+			return `Age element ${index + 1}: ${age}.`
+		});
+
+* Destructuring
+- The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+Ex:. ES5//	var john = ['john',26];
+		var name = john[0];
+		var age = john[1];
+       ES6     const [name, age] = ['john',26];
+
+* Array
+- The ES5 filter() and the ES6 find() are not synonymous. Filter always returns an array of matches (and will return multiple matches), find always returns the actual element.
+-	//ES5
+	var boxesArr5 = Array.prototype.slice.call(boxes);
+	boxesArr5.forEach(function(cur){
+		cur.style.backgroundColor = 'dodgerblue';
+	});
+	//ES6
+	const boxesArr6 = Array.from(boxes);
+	boxes.forEach(cur => cur.style.backgroundColor = 'dodgerblue');
+
+		
