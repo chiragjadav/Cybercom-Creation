@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practical 8</title>
+	<link rel="stylesheet"  href="style8.css">
+</head>
+<body>
+	<div class="box">
+		<form action="Information.php" method="GET" target="_blank">
+			<table><tr><td class="header">Personal Information</td></tr>
+				<tr>
+					<td class="detail">First Name:</td>
+					<td><input type="text" name="firstName"required></td>
+				</tr>
+				<tr>
+					<td class="detail">Last Name:</td>
+					<td><input type="text" name="lastName" required></td>
+				</tr>
+				<tr>
+					<td class="detail">Date of Birth:</td>
+					<td><input type="date" name="dateOFBirth" required></td>
+				</tr>
+				<tr>
+					<td class="detail">Gender:</td>
+					<td><select required name="gender">
+						<option value="0">Choose a gender</option>
+						<option value="1">Male</option>
+						<option value="2">Female</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="header">Account Information</td>
+				</tr>
+				<tr>
+					<td class="detail">Email:</td>
+					<td><input type="email" name="email" required>
+					(Your email address will be your username)</td>
+				</tr>
+				<tr>
+					<td class="detail">Re-type Email:</td>
+					<td><input type="email" name="email" required></td>
+				</tr>
+				<tr>
+					<td class="detail">Password:</td>
+					<td><input type="Password" name="password" required>(Min 8 characters,1 number,case-sensitive)</td>
+				</tr>
+				<tr>
+					<td class="detail">Re-type Password:</td>
+					<td><input type="Password" name="repassword" required></td>
+				</tr>
+				<tr>
+					<td class="detail">Security Question:</td>
+					<td><select required>
+						<option value="0">Choose a security question</option>
+						<option value="1">What is you nick name ?</option>
+						<option value="2">What is your school name ?</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="detail">Security Answer:</td>
+					<td><input type="text" name="securityAnswer" required>(Non case-sensitive)</td>
+				</tr>
+				<tr>
+					<td class="header">Contact Information</td>
+				</tr>
+				<tr>
+					<td class="detail">Address:</td>
+					<td><input type="text" name="address" required></td>
+				</tr>
+				<tr>
+					<td class="detail">City:</td>
+					<td><input type="text" name="city" required></td>
+				</tr>
+				<tr>
+					<td class="detail">State</td>
+					<td>
+					<select required name="state">
+						<option value="0">Choose a State</option>
+						<option value="1">Gujarat</option>
+						<option value="2">Goa</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+					<td class="detail">Zip Code:</td>
+					<td><input type="text" name="zipCode" class="styleZip" required></td>
+				</tr>
+				<tr>
+					<td class="detail">Phone:</td>
+					<td><input type="Phone" name="phone" class="stylePhone" required>(Non Spaces of dashes)</td>
+				</tr>
+				<tr><td></td>
+					<td>
+					<select class="stylePhone" required>
+						<option value="0">Mobile  </option>
+						<option value="1">Phone</option>
+						<option value="2">Telephone</option>
+					</select>	
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="submit" class="button" required><input type="reset" name="reset" class="button"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
