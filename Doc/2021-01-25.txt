@@ -1,0 +1,37 @@
+*******************************PHP*********************************
+* die and exit Function 
+- exit(): The exit() in PHP is used to print a message and exit the program. It’s generally used to print an alternate message for an error.
+- die() : The die() in PHP is equivalent to exit(). The output for a program will be an empty screen.
+
+* Expression matching
+- preg_match() : preg_match() function will tell you whether a string contains matches of a pattern. Returns 1 if the pattern was found in the string and 0 if not.
+- preg_match_all() : Returns the number of times the pattern was found in the string, which may also be 0.
+preg_replace() : Returns a new string where matched patterns have been replaced with another string.
+
+* function : A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value.
+- Syntax : function functionName() {
+	  code to be executed;
+	}
+
+- To specify strict we need to set declare(strict_types=1);. This must be on the very first line of the PHP file.
+- Example.: <?php declare(strict_types=1); // strict requirement ?>
+- function with argument and function with return value.
+
+* Global vaiable and function
+- To access the global variable in function we have to use global keyword to specify the variable inside the function.
+
+* String Functions 
+- str_word_count($string) : Count the number of words found in the string.
+- str_word_count($string,1) :
+- Specify the return value of this function. The current supported values are:
+	0 - returns the number of words found.
+	1 - returns an array containing all the words found inside the string.
+	2 - returns an associative array, where the key is the numeric position of the word inside 	the string and the value is the actual word itself .
+- str_shuffle($string) : Randomly shuffle all characters of a string.
+- substr(string,start,length) : The substr() function returns a part of a string.
+- strrev($string) : Reverse the string.
+- strlen($string) : Return the length of the string.
+- trim($string) : Removes whitespace or other predefined characters from both sides of a string.
+- rtrim() : Removes whitespace or other predefined characters from the right side of a string.
+- addslashes($string) : Quote string with slashes.
+- htmlentities() : Convert all applicable characters to HTML entities.
