@@ -1,0 +1,35 @@
+*******************************PHP*********************************
+* Word Censoring
+-  PHP string str_ireplace() is predefined function. It is used to replace some character with some other characters. It is case-insensitive version of str_replace().
+- Syntax : str_ireplace(find,replace,string,count);  
+
+- Created find and replace application using strlen(), strpos() and substr_replace() function which
+ I have learned in previous videos.
+
+* Timestamp
+- time() : This is the simple and widely used PHP function to get current timestamp value
+- date() : date formate characters denoting components of the date value.
+- strtotime() : PHP provides a list of supported strings to be passed as an argument of this function to denote date values. For example, “Tuesday last week”, “+1 week”, “21 November 2008” and etc.
+
+* Random number
+- rand(min,max) : This function generates a random integer.
+
+* Server Variables
+- $_SERVER is a PHP super global variable which holds information about headers, paths, and script locations.
+- $_SERVER['SERVER_NAME'] : Returns the name of the host server.
+- $_SERVER['HTTP_HOST'] : Returns the Host header from the current request.
+- $_SERVER['PHP_SELF'] : Returns the filename of the currently executing script.
+- $_SERVER['SERVER_ADDR'] : Returns the IP address of the host server.
+- $_SERVER['REMOTE_ADDR'] : Returns the IP address from where the user is viewing the current page
+- 'HTTP_CLIENT_IP','HTTP_X_FORWARDED_FOR',etc.
+
+* Header to Force Page Redirect
+- header('Location: '.$redirect_page) : Redirection in php can be done using the header() function.
+- The ob_start() function creates an output buffer. A callback function can be passed in to do processing on the contents of the buffer before it gets flushed from the buffer. Flags can be used to permit or restrict what the buffer is able to do.
+
+* Detecting Browser Data
+- get_browser(null,true) : Look up the browscap.ini file and return the capabilities of the browser.
+
+- PHP $_GET is a PHP super global variable which is used to collect form data after submitting an HTML form with method="get".$_GET can also collect data sent in the URL.
+
+- PHP $_POST is a PHP super global variable which is used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables.
