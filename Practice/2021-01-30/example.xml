@@ -1,0 +1,23 @@
+<producers>
+	<producer>
+		<name>alex</name>
+		<age>23</age>
+		<show>
+			<showname>A show</showname>
+			<showdate>12th May 2020</showdate>
+		</show>
+		<show>
+			<showname>Another show</showname>
+			<showdate>1th june 2012</showdate>
+		</show>
+	</producer>
+	<producer>
+		<name>john</name>
+		<age>26</age>
+		<show>
+			<showname>Better show</showname>
+			<showdate>12th July 2011</showdate>
+		</show>
+	</producer>
+	
+</producers>
