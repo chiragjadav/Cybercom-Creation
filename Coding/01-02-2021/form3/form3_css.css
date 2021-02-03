@@ -1,0 +1,11 @@
+div{
+	border: 15px solid lightgreen;
+}
+table,tr,td,fieldset {
+	background-color: lawngreen;
+	width: 700px;
+	padding: 7px;
+}
+fieldset{
+	text-align: center;
+}

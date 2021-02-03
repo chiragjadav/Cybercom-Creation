@@ -1,0 +1,21 @@
+table,td,tr{
+	border-color: dodgerblue;
+	border-style: ridge;
+	width: 450px;
+	padding: 5px;
+	background-color: lightblue;
+}
+th{
+	background-color: yellow;
+	color: red;
+}
+.center {
+	text-align: center;
+	margin: auto;
+}
+.button {
+	padding: 5px;
+}
+input,textarea,select {
+	background-color: lightgreen;
+}

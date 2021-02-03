@@ -1,0 +1,37 @@
+table,td,tr{
+		padding:5px;
+		width: 600px;
+		background-color: dodgerblue;
+		color: yellow;
+	}
+	th{
+		background-color: orange;
+		color: yellow;
+		text-align: left;
+		padding: 5px;
+	}
+	.right{
+		text-align: right;
+	}
+	.footer{
+		background-color: orange;
+		color: yellow;
+		text-align: left;
+		padding: 5px;
+	}
+	.submit  input{
+		background-color: green;	
+		border: none;
+  		color: white;
+  		padding: 5px;
+	}
+	.reset input{
+		background-color: red;	
+		border: none;
+  		color: white;	
+  		padding: 5px;
+	}
+	.center{
+		text-align: center;
+		display: inline;
+	}
