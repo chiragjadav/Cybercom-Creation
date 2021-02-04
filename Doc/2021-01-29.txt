@@ -1,0 +1,44 @@
+************************************PHP*************************************
+* PHP Session
+- A session is started with the session_start() function.
+- Session variables are set with the PHP global variable: $_SESSION.
+- To remove all global session variables and destroy the session, use session_unset() and      session_destroy().
+
+* Cookies
+- PHP provided setcookie() function to set a cookie. This function requires upto six arguments and should be called before <html> tag. For each cookie this function has to be called separately.
+- Ex. setcookie(name, value, expire, path, domain, security);
+- Accessing cookies : Simplest way is to use either $_COOKIE or $HTTP_COOKIE_VARS variables.
+- We can use isset() function to check if a cookie is set or not.
+- Deleting cookies : To delete a cookie you should call setcookie() with the name argument only but this does not always work well, however, and should not be relied on.It is safest to set the cookie with a date that has already expired 
+- Ex. setcookie( "name", "", time()- 60, "/","", 0);
+
+* File Handling
+- fopen('File_name','Mode') : function contain the name of the file to be opened and the specifies in which mode the file should be opened.
+- fread($myfile,filesize("File")) : function contain the name of the file to read and specifies the maximum number of bytes to read.
+- fclose('File') : function is used to close an open file.
+- Modes : r => Open a file for read only.
+               w=> Open a file for write only.
+                a=> Open a file for write only.
+                x=> Create a new file for write only.
+                r+=> Open a file for read/write.
+                w+=> Open a file for read/write.
+                a+=> Open a file for read/write.
+                x+=> Create a new file for read/write.
+- explode() : The explode() function breaks a string into an array. 
+- Syntax : explode(separator,string,limit).
+- implode() : The implode() function returns a string from the elements of an array
+- Syntax : implode(separator,array).
+- Listing File 
+- opendir() : The opendir() function opens a directory handle.
+- Syntax : opendir(path, context)
+- readdir() : The readdir() function returns the name of the next entry in a directory.
+- Syntax : readdir(dir).
+- file_exists("test.txt") : The file_exists() function checks whether a file or directory exists.
+- unlink(filename) : The unlink() function deletes a file.
+- rename() : The rename() function renames a file or directory.
+- Syntax : rename(oldfile_name, newfile_name, context).
+- $_FILES['file']['tmp_name'] − the uploaded file in the temporary directory on the web server.
+- $_FILES['file']['name'] − the actual name of the uploaded file.
+- $_FILES['file']['size'] − the size in bytes of the uploaded file.
+- $_FILES['file']['type'] − the MIME type of the uploaded file.
+- $_FILES['file']['error'] − the error code associated with this file upload.
