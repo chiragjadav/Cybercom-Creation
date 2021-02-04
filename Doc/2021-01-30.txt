@@ -1,0 +1,19 @@
+**************************************PHP***********************************
+* md5 Encryption : The md5() function calculates the MD5 hash of a string.The md5() function uses the RSA Data Security, Inc. MD5 Message-Digest Algorithm.
+- Syntax : md5(String) => Returns the calculated MD5 hash on success, or FALSE on failure.
+
+* Mail 
+- PHP must be configured correctly in the php.ini file with the details of how your system sends email. Open php.ini file available in /etc/ directory and find the section headed [mail function].
+- PHP makes use of mail() function to send an email.
+- mail( to, subject, message, headers, parameters );
+- to => Required. Specifies the receiver / receivers of the email.
+- subject => Required. Specifies the subject of the email. This parameter cannot contain any newline characters.
+- message => Required. Defines the message to be sent. Each line should be separated with a LF (\n). Lines should not exceed 70 characters.
+- header => Optional. Specifies additional headers, like From, Cc, and Bcc. The additional headers should be separated with a CRLF (\r\n).
+- parameter => Optional. Specifies an additional parameter to the send mail program.
+
+*XML
+- XML is a markup language that looks a lot like HTML. An XML document is plain text and contains tags delimited by < and >.There are two big differences between XML and HTML −
+- XML doesn't define a specific set of tags you must use.
+- XML is extremely picky about document structure.
+- The PHP simplexml_load_string() function is used to read XML data from a string.
