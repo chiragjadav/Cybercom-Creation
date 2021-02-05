@@ -1,0 +1,25 @@
+**********************************PHP**************************************
+* JOINS In Database
+- LEFT JOIN : The LEFT JOIN keyword returns all records from the left table (table1), and the matched records from the right table (table2). The result is NULL from the right side, if there is no match.
+- Syntax : SELECT column_name(s) FROM table1 LEFT JOIN table2 ON table1.column_name =   table2.column_name;
+
+- RIGHT JOIN : The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1). The result is NULL from the left side, when there is no match.
+- Syntax : SELECT column_name(s) FROM table1 RIGHT JOIN table2 ON table1.column_name =   table2.column_name;
+
+- JOIN : The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
+- Syntax : SELECT column_name(s) FROM table1 JOIN table2 ON table1.column_name =   table2.column_name;
+
+- The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.There are two wildcards often used in conjunction with the LIKE operator:
+	% - The percent sign represents zero, one, or multiple characters
+	_ - The underscore represents a single character
+
+- DISTINCT : The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+- Completed the task ofall five form done with javascript and serverside validation.
+
+- Practice on phpmyadmid of queries.
+
+- Created User Login form with database connectivity and checking whether user is exist or not. If user is available the do login using the session.logout when click on logout.
+
+- Created User Registration form if user is not found in database and insert data in database.
+
