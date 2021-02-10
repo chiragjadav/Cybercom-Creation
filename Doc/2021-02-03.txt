@@ -1,3 +1,0 @@
-***************************************PHP**********************************
-- Completed the five form with database connectivity and inserting data into database using form .
-- Practice of MySQL Queries.
